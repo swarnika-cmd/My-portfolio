@@ -31,3 +31,4 @@ Welcome to the documentation for **Swarnika Somvanshi's Portfolio**
 - **Build Tool**: Vite
 
 
+Design/animation architecture adapted from [Prashant Koirala](https://github.com/prashantkoirala465/web-development-portfolio)
