@@ -71,9 +71,9 @@ document.addEventListener("DOMContentLoaded", () => {
     // User's uploaded custom project images sequence
     const projectImages = [
       "/images/hero/img2.jpg",
-      "/images/hero/img3.jpg",
       "/images/hero/img5.png",
-      "/images/hero/img6.png"
+      "/images/hero/img3.jpg",
+      "/images/hero/img8.jpg"
     ];
 
     const imagesContainer = document.querySelector(".featured-images");
