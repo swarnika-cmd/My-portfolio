@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/globals.css" />
     <link rel="stylesheet" href="/css/menu.css" />
     <link rel="stylesheet" href="/css/contact.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
   </head>
   <body>
     <div class="transition">
@@ -47,55 +48,54 @@
             </div>
           </div>
         </div>
-        <div class="contact-form-container">
-          <div class="form-header">
-            <h2>Start a Conversation</h2>
-            <p>Tell me about your project, internship role, or research inquiry</p>
-          </div>
-          <form class="contact-form" id="contactForm">
-            <div class="form-row">
-              <div class="form-group">
-                <input type="text" id="firstName" name="firstName" placeholder="Your first name" required>
-                <label for="firstName">First Name</label>
-              </div>
-              <div class="form-group">
-                <input type="text" id="lastName" name="lastName" placeholder="Your last name" required>
-                <label for="lastName">Last Name</label>
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-group">
-                <input type="email" id="email" name="email" placeholder="your@email.com" required>
-                <label for="email">Email Address</label>
-              </div>
-              <div class="form-group">
-                <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210">
-                <label for="phone">Phone Number</label>
-              </div>
-            </div>
-            <div class="form-group full-width">
-              <select id="projectType" name="projectType" required>
-                <option value="">Select inquiry type</option>
-                <option value="ai-internship">AI Engineering Internship</option>
-                <option value="fullstack-internship">Full-Stack Internship</option>
-                <option value="research">Research Collaboration</option>
-                <option value="other">Other Inquiry</option>
-              </select>
-              <label for="projectType">Inquiry Type</label>
-            </div>
-            <div class="form-group full-width">
-              <textarea id="message" name="message" placeholder="Tell me about your project, team, or opportunity..." required></textarea>
-              <label for="message">Project Details</label>
-            </div>
-            <button type="submit" class="submit-btn">
-              Send Message
-            </button>
-            <div class="success-message" id="successMessage">
-              <p>Thanks! Your message has been sent. I'll get back to you promptly.</p>
-            </div>
-          </form>
-        </div>
       </section>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-symbols footer-symbols-1">
+            <img src="/images/global/s6.png" alt="" />
+            <img src="/images/global/s6.png" alt="" />
+          </div>
+          <div class="footer-symbols footer-symbols-2">
+            <img src="/images/global/s6.png" alt="" />
+            <img src="/images/global/s6.png" alt="" />
+          </div>
+          <div class="footer-row">
+            <div class="footer-col">
+              <p>Explore</p>
+              <p><a href="/">Home</a></p>
+              <p><a href="/contact">Contact</a></p>
+            </div>
+            <div class="footer-col">
+              <p>Education & Role</p>
+              <p><a href="https://www.bits-pilani.ac.in/" target="_blank">BITS Pilani </a></p>
+              <p><a href="https://www.scaler.com/sst/" target="_blank">Mem1 Researcher @ SST</a></p>
+            </div>
+            <div class="footer-col">
+              <p>Connect</p>
+              <p>
+                <a href="https://linkedin.com/in/swarnika-somvanshi" target="_blank">LinkedIn</a>
+              </p>
+              <p>
+                <a href="https://github.com/swarnika-cmd" target="_blank">Github</a>
+              </p>
+              <p>
+                <a href="mailto:somvanshiswarnika@gmail.com" target="_blank">Email</a>
+              </p>
+            </div>
+            <div class="footer-col">
+              <p>Featured Repos</p>
+              <p><a href="https://github.com/swarnika-cmd/ShieldWall-Gateway" target="_blank">ShieldWall Gateway</a></p>
+              <p><a href="https://github.com/swarnika-cmd/Smarana-PrivacyFirstBrain" target="_blank">Smarana v2</a></p>
+              <p><a href="https://github.com/swarnika-cmd/AskMyDoc-2.O" target="_blank">AskMyDoc</a></p>
+            </div>
+          </div>
+          <div class="copyright-info">
+            <p class="mn">© - Swarnika Somvanshi // 2026</p>
+            <p class="mn"></p>
+          </div>
+          <div class="explosion-container"></div>
+        </div>
+      </footer>
     </div>
     <script type="module" src="/js/transition.js"></script>
     <script type="module" src="/js/contact.js"></script>
