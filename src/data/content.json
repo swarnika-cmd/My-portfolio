@@ -1,0 +1,149 @@
+{
+  "personal": {
+    "name": "Swarnika Somvanshi",
+    "monogram": "S ✦ S",
+    "title": "AI Engineer & Full-Stack Developer",
+    "status": "Open to AI & Full-Stack Internships",
+    "location": "Bengaluru, Karnataka, India",
+    "timezone": "Asia/Kolkata",
+    "bio": "Most of my code exists because something annoyed me enough to fix it myself. That's how Mem1 (an AI memory layer for autonomous agents) started, and it's the same instinct behind the RAG pipelines, encrypted knowledge tools, and browser agents scattered across my GitHub. CS student at BITS Pilani, still figuring out how deep the rabbit hole goes — currently somewhere around raw TCP sockets.",
+    "email": "somvanshiswarnika@gmail.com",
+    "github": "https://github.com/swarnika-cmd",
+    "linkedin": "https://linkedin.com/in/swarnika-somvanshi",
+    "twitter": "https://x.com"
+  },
+  "stats": [
+    { "label": "CGPA at BITS Pilani", "value": 8.9, "suffix": "" },
+    { "label": "Projects Built", "value": 6, "suffix": "+" },
+    { "label": "Research Role", "value": 1, "suffix": "" },
+    { "label": "Years at BITS", "value": 3, "suffix": "rd" }
+  ],
+  "ticker": [
+    "AI Memory Systems", "RAG Pipelines", "Browser Agents",
+    "Zero-Knowledge Tools", "Python & FastAPI", "Java & TCP",
+    "Full-Stack AI", "BITS Pilani", "Mem1 Researcher"
+  ],
+  "services": [
+    {
+      "id": "01",
+      "title": "AI Memory & RAG Pipelines",
+      "description": "Building production-grade retrieval-augmented generation systems and persistent AI memory layers for autonomous agents.",
+      "tags": ["Python", "FastAPI", "LangChain", "Vector DBs"]
+    },
+    {
+      "id": "02",
+      "title": "Full-Stack Systems (React / FastAPI)",
+      "description": "End-to-end web applications from responsive frontends to high-throughput backend APIs with clean architecture.",
+      "tags": ["React", "FastAPI", "PostgreSQL", "Docker"]
+    },
+    {
+      "id": "03",
+      "title": "Zero-Knowledge & Privacy Tech",
+      "description": "Privacy-first browser extensions and encrypted knowledge tools that keep user data local and secure.",
+      "tags": ["Browser APIs", "AES Encryption", "IndexedDB", "WebExtensions"]
+    },
+    {
+      "id": "04",
+      "title": "Browser Agents & Multithreaded TCP",
+      "description": "Autonomous browser automation agents and low-level RFC-compliant TCP servers built from scratch in Java.",
+      "tags": ["Java", "Sockets", "Multithreading", "HTTP/1.1"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "ShieldWall Gateway",
+      "category": "Enterprise Security & Observability",
+      "description": "Enterprise LLM Security & Telemetry Control Room — rate limiting, prompt injection detection, real-time monitoring for production LLM APIs.",
+      "tags": ["Python", "FastAPI", "Redis", "LLM Security"],
+      "github": "https://github.com/swarnika-cmd/ShieldWall-Gateway",
+      "live": "https://github.com/swarnika-cmd/ShieldWall-Gateway"
+    },
+    {
+      "id": "proj-2",
+      "title": "Journal with Mr Brown",
+      "category": "AI Voice Companion",
+      "description": "AI voice companion with persistent memory — speaks, listens, and remembers across sessions using a custom memory layer.",
+      "tags": ["Python", "Speech API", "Memory Layer", "AI"],
+      "github": "https://github.com/swarnika-cmd/Journal-with-Mr-Brown-AI-Voice-Companion-with-Persistent-Memory",
+      "live": "https://github.com/swarnika-cmd/Journal-with-Mr-Brown-AI-Voice-Companion-with-Persistent-Memory"
+    },
+    {
+      "id": "proj-3",
+      "title": "Smarana v2 (BrowserMemo)",
+      "category": "Privacy-First Knowledge Tool",
+      "description": "Zero-knowledge browser extension 'second brain' — AES-encrypted local storage, semantic search, zero server dependency.",
+      "tags": ["JavaScript", "Browser Extension", "AES", "IndexedDB"],
+      "github": "https://github.com/swarnika-cmd/Smarana-PrivacyFirstBrain",
+      "live": "https://github.com/swarnika-cmd/Smarana-PrivacyFirstBrain"
+    },
+    {
+      "id": "proj-4",
+      "title": "AskMyDoc",
+      "category": "RAG Document Intelligence",
+      "description": "RAG document-intelligence app inspired by NotebookLM — upload PDFs, ask questions, get grounded answers with citations.",
+      "tags": ["Python", "LangChain", "RAG", "FastAPI"],
+      "github": "https://github.com/swarnika-cmd/AskMyDoc-2.O",
+      "live": "https://github.com/swarnika-cmd/AskMyDoc-2.O"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages & Core",
+      "items": ["Python", "Java", "JavaScript (ES6+)", "HTML5", "CSS3", "Bash"]
+    },
+    {
+      "category": "AI & ML Stack",
+      "items": ["LangChain", "RAG Pipelines", "Vector DBs", "OpenAI API", "HuggingFace", "Mem1 (Research)"]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "items": ["FastAPI", "React", "Node.js", "GSAP", "Lenis", "Browser Extensions API"]
+    },
+    {
+      "category": "Infrastructure & Tools",
+      "items": ["PostgreSQL", "Redis", "Docker", "Git / GitHub", "Vercel", "Vite"]
+    }
+  ],
+  "philosophy": [
+    {
+      "title": "Build Because It Annoys You",
+      "description": "The best tools are born from frustration. If something slows you down, build the fix — that instinct is what separates engineers from users."
+    },
+    {
+      "title": "Research-First, Ship-Second",
+      "description": "Understand the problem deeply before writing a single line. Concept-driven development produces systems that actually last."
+    },
+    {
+      "title": "Privacy as a Default",
+      "description": "User data should stay with the user. Zero-knowledge design and local-first architecture aren't features — they're table stakes."
+    },
+    {
+      "title": "Solo Systems Thinking",
+      "description": "Building full-stack AI systems solo demands understanding every layer. That breadth is a feature, not a liability."
+    }
+  ],
+  "insights": [
+    {
+      "title": "Building Mem1: An AI Memory Layer for Autonomous Agents",
+      "date": "Aug 2026",
+      "readTime": "6 min read",
+      "tag": "AI Research",
+      "link": "https://github.com/swarnika-cmd"
+    },
+    {
+      "title": "Zero-Knowledge Browser Extensions: Keeping Secrets Local",
+      "date": "Jul 2026",
+      "readTime": "5 min read",
+      "tag": "Privacy Tech",
+      "link": "https://github.com/swarnika-cmd/Smarana-PrivacyFirstBrain"
+    },
+    {
+      "title": "RFC 2616 from Scratch: Writing an HTTP/1.1 Server in Java",
+      "date": "May 2026",
+      "readTime": "8 min read",
+      "tag": "Systems Programming",
+      "link": "https://github.com/swarnika-cmd/HTTP-1.1-Server"
+    }
+  ]
+}
