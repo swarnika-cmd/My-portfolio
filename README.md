@@ -29,6 +29,3 @@ Welcome to the documentation for **Swarnika Somvanshi's Portfolio**
 - **Frameworks & Libs**: React, Node.js, Express.js, FastAPI, GSAP, Lenis Smooth Scroll
 - **Databases & Vector Stores**: PostgreSQL, pgvector, ChromaDB, Pinecone, Redis, IndexedDB
 - **Build Tool**: Vite
-
-
-Design/animation architecture adapted from [Prashant Koirala](https://github.com/prashantkoirala465/web-development-portfolio)
