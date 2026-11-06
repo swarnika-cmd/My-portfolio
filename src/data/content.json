@@ -109,7 +109,7 @@
       "id": "proj-1",
       "title": "ShieldWall Gateway",
       "category": "Enterprise Security & Observability",
-      "description": "LLM API gateway: PII masking with mid-stream restore, hashed per-project API keys, atomic Redis budget enforcement, Celery workers for logging and cost accounting.",
+      "description": "LLM API gateway: PII masking with mid-stream restore, hashed per-project API keys, atomic Redis budget reservation, request logging on Celery workers.",
       "tags": [
         "Python",
         "FastAPI",
