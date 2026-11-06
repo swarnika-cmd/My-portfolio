@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "host": "vite --host"
   },
-  "keywords": ["portfolio", "full-stack", "ai-researcher", "swarnika-somvanshi"],
+  "keywords": ["portfolio", "full-stack", "backend", "swarnika-somvanshi"],
   "author": "Swarnika Somvanshi <somvanshiswarnika@gmail.com>",
   "license": "MIT",
   "dependencies": {
