@@ -3,8 +3,7 @@
 Personal portfolio site, live at [my-portfolio-nine-gold-84.vercel.app](https://my-portfolio-nine-gold-84.vercel.app).
 
 - **Focus:** backend engineering (APIs, databases, concurrency, performance)
-- **Education:** Scaler School of Technology (Undergraduate Program in Computer Science) and BITS Pilani (B.Sc. (Hons.) Computer Science), 2024 to 2028
-- **Location:** Bengaluru, India
+- **Education:** B.Sc. (Hons.) Computer Science, BITS Pilani, 2028
 - **GitHub:** [github.com/swarnika-cmd](https://github.com/swarnika-cmd)
 - **LinkedIn:** [linkedin.com/in/swarnika-somvanshi](https://linkedin.com/in/swarnika-somvanshi)
 
