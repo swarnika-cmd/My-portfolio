@@ -76,7 +76,7 @@
   
   .featured-work .featured-titles {
     position: relative;
-    width: 500vw;
+    width: 600vw;
     height: 100vh;
     display: flex;
     will-change: transform;

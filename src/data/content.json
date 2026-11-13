@@ -6,7 +6,7 @@
     "status": "Open to Backend Internships",
     "location": "India",
     "timezone": "Asia/Kolkata",
-    "bio": "Backend systems built from the protocol up: an HTTP/1.1 server on raw Java sockets, a search typeahead service, and an API gateway on PostgreSQL and Redis, each with tests and reproducible benchmarks. Open source contributor in the freeCodeCamp x NHCarrigan cohort.",
+    "bio": "Backend systems built from the protocol up: an HTTP/1.1 server on raw Java sockets, a search typeahead service, an API gateway on PostgreSQL and Redis, and a document-QA service with a retrieval evaluation harness, each with tests and reproducible benchmarks. Open source contributor in the freeCodeCamp x NHCarrigan cohort.",
     "email": "somvanshiswarnika@gmail.com",
     "github": "https://github.com/swarnika-cmd",
     "linkedin": "https://linkedin.com/in/swarnika-somvanshi"
@@ -96,7 +96,7 @@
       "id": "proj-00",
       "title": "Search Typeahead",
       "category": "Search",
-      "description": "Trie with precomputed top-K and trending decay, consistent-hash shard routing, write-behind buffer to SQLite; Jest tests and k6 load tests.",
+      "description": "Trie with precomputed top-K and trending decay, consistent-hash shard routing, write-behind buffer to SQLite. A radix trie cut heap at 1M terms from 4,477 to 529.2 MiB (lookup p99 2.92 µs); 105 Jest tests.",
       "tags": [
         "TypeScript",
         "Node.js",
@@ -109,7 +109,7 @@
       "id": "proj-1",
       "title": "ShieldWall Gateway",
       "category": "Enterprise Security & Observability",
-      "description": "LLM API gateway: PII masking with mid-stream restore, hashed per-project API keys, atomic Redis budget reservation, request logging on Celery workers.",
+      "description": "LLM API gateway: PII masking with mid-stream restore, hashed per-project API keys, atomic Redis budget reservation, request logging on Celery workers. At 400 req/s against a 200 ms mock upstream, 2 workers stayed healthy in 3 of 3 runs and 1 worker in 0 of 3; 104 tests, py-spy profiles committed.",
       "tags": [
         "Python",
         "FastAPI",
@@ -132,6 +132,20 @@
       ],
       "github": "https://github.com/swarnika-cmd/Smarana-PrivacyFirstBrain",
       "live": "https://github.com/swarnika-cmd/Smarana-PrivacyFirstBrain"
+    },
+    {
+      "id": "proj-4",
+      "title": "AskMyDoc V2",
+      "category": "Document QA & Evaluation",
+      "description": "Document QA over PDF and text files (FastAPI, LangChain, ChromaDB, all-MiniLM-L6-v2; Ollama with a request-time Groq fallback) with an evaluation harness: 150-question golden set over 8 public PDFs. Hybrid BM25 + dense retrieval with RRF raised recall@5 from 0.800 to 0.869 over the shipped parent-child design (130 answerable questions, retrieval only).",
+      "tags": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "ChromaDB"
+      ],
+      "github": "https://github.com/swarnika-cmd/AskMyDoc-2.O",
+      "live": "https://github.com/swarnika-cmd/AskMyDoc-2.O"
     }
   ],
   "skills": [

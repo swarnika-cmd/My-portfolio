@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const indicatorContainer = document.querySelector(".featured-work-indicator");
     indicatorContainer.innerHTML = "";
-    for (let section = 1; section <= 5; section++) {
+    for (let section = 1; section <= 6; section++) {
       const sectionNumber = document.createElement("p");
       sectionNumber.className = "mn";
       sectionNumber.textContent = `0${section}`;
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
       window.innerWidth >= 1600 ? featuredCardPosLarge : featuredCardPosSmall;
 
     const featuredTitles = document.querySelector(".featured-titles");
-    const moveDistance = window.innerWidth * 4;
+    const moveDistance = window.innerWidth * 5;
 
     // User's uploaded custom project images sequence
     const projectImages = [
